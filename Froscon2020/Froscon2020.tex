@@ -1,0 +1,493 @@
+\documentclass [t,11pt] {beamer}
+%\def\Put(#1,#2)#3{\leavevmode\makebox(0,0){\put(#1,#2){#3}}}
+
+% --------------------------------------------------------------------
+% Load packages
+\usepackage{ulem}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+    decorations.pathreplacing,decorations.pathmorphing,shapes,%
+    matrix,shapes.symbols}
+\usepackage{listings}
+%\lstset{tabsize=2,showspaces=false,showtabs=false,basicstyle=\ttfamily\mdseries\itshape\normalsize}
+%for listings:
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=R,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
+
+
+
+% --------------------------------------------------------------------
+% Beamer version theme settings
+%\usetheme[faculty=sciences,lang=en,rmfont=pmn,logofont=fpi]{leiden}
+%\usetheme[faculty=sciences,lang=en]{leiden}
+\usetheme[faculty=sciences,lang=en,logofont=fpi]{leiden}
+
+% --------------------------------------------------------------------
+\def\liketitle#1{%
+{\usebeamerfont{frametitle}\usebeamercolor[fg]{frametitle}%
+\begin{flushleft}%
+\vspace{-\baselineskip}% Cosmetic correction for space introduced by flushleft
+#1\par
+\end{flushleft}%
+\vspace{-\baselineskip}% Cosmetic correction for space introduced by flushleft
+}%
+\vspace{0.75\baselineskip}%
+}
+
+\setbeamertemplate{navigation symbols} {}
+
+%\usetheme{Singapore}
+
+% Header settings
+\def\lecturename{Open Trackers} 
+\lecture[Leiden Template]{}{ldn-bmr}
+%\lecture[Leiden Template]{}{}
+\title{Open Trackers for (Open) Science} 
+%\subtitle{Template to generate Leiden-style slides with LaTeX}
+\author {Daniela Gawehns, Froscon 2020}
+\date{}
+%\institute{Universiteit Leiden}
+\subject{Lecture: \lecturename}
+
+
+
+\begin{document}
+
+
+\maketitle
+
+
+\begin{frame}
+\frametitle{Outline}
+\tableofcontents
+\end{frame}
+
+
+\begin {frame}{The Why }
+
+- Why activity trackers are used by researchers
+    - tracking of activity, heart rate, location, interactions, emotional assessment
+    - passively, (almost) non-intrusive
+    - longitudinal studies (several weeks)
+    - real life data
+
+\end{frame}
+
+
+
+\begin {frame}{The Why - Fields of Research}
+
+- Psychology: Organizational and Work, (Mental) Health, Developmental, Educational
+- Criminology: Reintegration of ex-detainees
+- Sports Science: Physiotherapists, Training Schedules
+- Medical Research: Gerontology, Reconvalcense, Psychiatry
+
+\end {frame}
+%
+%
+
+
+%%%%%%%%%%%%%
+\begin{frame} {Use Case I: Schools}
+
+%Schoolyards: children, ideally: positioning, activity, interactions and momentary assessment
+
+Use Case III: School Children
+
+
+Aim: monitor play behavior of children during break time
+
+
+Current means: observations, proximity sensors
+
+
+Use of wearables: collecting raw accelerometer data, GPS location data, proximity data, emotional momentary assessment (EMA)
+
+
+\end {frame}
+%
+
+
+%%%%%%%
+
+\begin{frame}{Use Case II: Ex-Detainees}
+
+Reintegration of Ex-Detainees: adults, daily life, feedback, integration in process
+
+Slide:
+
+Use Case I : Ex-Detainees
+
+
+Aim: stay out-of-trouble
+
+
+Current means: contracts with coach and regular meetings, phone calls
+
+
+Use of wearables: to help self-control behaviors that might lead to criminal behavior
+
+
+
+%Speakernotes:
+
+%At exodus, ex detainees get coaching to build a new life after prison. This includes making plans and monitoring that coachees stay out of prison.
+
+%This is traditionally done with personal sessions and via phone calls.
+
+%Wearables could help clients at exodus to gain more insights about their own behavior and give them feedback about their behavior. Depending on the clients wishes, coachees could have their coach call them if they stayed insight for too long and fear that this triggers a spiral of depression and drug abuse. Or, going even further, the wearable could monitor which calls are made from the mobile phone and if a set of numbers is or is not called, the coach gets a message and reminds the coachee to call their support system or asks what made them get in touch with criminal circles again.
+
+
+
+
+\end {frame}
+
+
+
+%%%%%%%%%%%
+\begin {frame} {Use Case III: Dementia Care}
+
+%Dementia Care: elderly, little movement, ideally: positioning, activity, interactions
+Use Case III: Dementia Care
+
+
+Aim: monitor activity levels and location (outdoors) of residents in dementia care ward
+
+
+Current means: observations, studies with accelerometers (research devices), step counters
+
+
+Use of wearables: collecting raw accelerometer data and GPS location data 
+
+\end {frame}
+
+
+
+
+%%%%%%%%%%%%%%
+\begin {frame} {Summary of Use Cases}
+
+				Children 		Ex- Detainees		Nursing home residents
+Acc
+EMA
+GPS
+call logs (etc)	
+
+Age
+Somatic Health
+Mental Health
+
+
+
+\end {frame}
+
+
+%%%%%%%%%%%%%%
+\begin {frame} {Wake-up Activity}
+
+Imagine you were a parent and enrolled your child in a study, you enrolled yourself in a therapeutic program or were asked to enroll your parent living with dementia: Which alarm bells will this trigger and which problems do you see?
+
+\end {frame}
+
+
+
+%%%%%%%%%%%%%%%
+\begin {frame} {Alarm Bells and Considerations}
+
+
+
+%Exodus Project
+Design: durable, "normal" looking (avoid stigma)
+
+Data Privacy: full control over their data by the client
+
+
+
+
+\end {frame}
+
+
+
+%%%%%%%%%%%
+
+\begin {frame}{The How - Current Solution}
+
+- Data Privacy Solutions - only for offline/closed system devices - lab setting only
+- Use research platforms by Garmin or fitbit to access data
+- Using customer grade products and code the software yourself
+
+Introduce Medical Research Devices
+	ShimmerSensing.com
+	Actigraph
+	Picture from Stelios Paper
+	Empatica
+
+Introduce Consumer Grade Devices
+
+
+\end {frame}
+
+
+%%%%%%%%%%%
+
+
+\begin {frame}{The How - BigTech}
+
+- Apple Watch
+
+General: Investigator Support Pilot and Apple watch limited grant program
+
+		http://researchkit.org
+		https://github.com/researchkit/researchkit
+		https://developer.apple.com/videos/play/wwdc2019/217/
+		docs: http://researchkit.org/docs/docs/Overview/GuideOverview.html
+		 
+		 Tasks: seven categories: motor activities, fitness, cognition, speech, hearing, hand 				dexterity, and vision
+		 All from Clinical Neuropsychology - Cognitive and fitness testing activities
+		 the clinician in me asks: are those validated tests? Validated againsts paper-pen tests or lab tests that those are based on 
+		 
+		 It might be returning the raw accelerometer information collected during those tasks (???)
+		 You can also design your own test (?)
+		 
+		
+		ResearchKit framework currently doesn?t include:
+
+Background sensor data collection. APIs like HealthKit and CoreMotion on iOS already support this.
+Secure communication mechanisms between your app and your server; you will need to provide this.
+The ability to schedule surveys and active tasks for your participants.
+A defined data format for how the ResearchKit framework structured data is serialized. All the ResearchKit framework objects conform to the NSSecureCoding protocol, and sample code exists protocol, and sample code exists outside the framework for serializing objects to JSON.
+
+Healthkit - needed to access users health data and information: 
+		demographics, workout information (?) but where is the sensor data?
+
+CoreMotion - 
+docs: https://developer.apple.com/documentation/coremotion
+Core Motion reports motion- and environment-related data from the onboard hardware of iOS devices, including from the accelerometers and gyroscopes, and from the pedometer, magnetometer, and barometer.
+	Accelerometer, 
+	Gyroscope,
+	Magnetometer
+	Altitude
+	Pedometer,
+
+Looking into Accelerometer: value of recording interval seems to depend on hardware? ??
+Interesting finding: they have a function and objects to monitor movement disorders, namely tremors
+
+--> open questions: 
+will data be sent only btw app and researcher?
+which temporal granularity of raw sensor data output is achievable?
+what is the reliability/ validity of the in-built cognitive assessments?
+
+
+
+%%%%%%%%%				
+		
+- Garmin
+https://www.fitabase.com - company providing researchsupport
+https://www.fitabase.com/how-it-works/faq/
+https://www.fitabase.com/resources/knowledge-base/learn-about-fitbit-data/data-resolutions/
+granularity of data available
+
+
+https://developer.garmin.com/health-api/overview/ 
+Health API and Health SDK
+
+Health SDK allows custom recording of Heart Rate, Activity Types - and most probably also accelerometer and gyroscope data (but no confirmation or link information for any of this)
+
+
+Health API gives access to a range of data collected, activity types, sleep, heart rate; I am pretty sure that extraction of raw accelerometer data is not possible via this 
+
+
+%%%%%%%%%
+- Fitbit
+https://healthsolutions.fitbit.com/researchers/
+https://healthsolutions.fitbit.com/researchers/faqs/
+https://www.fitabase.com - company providing researchsupport
+
+broad product lineup with devices that track a variety of metrics, including step count, floors climbed, distance, calories burned, active minutes, sleep time and stages, and heart rate
+
+Either summary data per account: https://help.fitbit.com/articles/en_US/Help_article/1133.htm
+or via web API for accessing data from Fitbit devices and anyone can develop an application to access data from a device - in higher temporal resolution, including GPS data (Heart Rate, Sleep, Activity Patterns) --> Intraday support can extend the detail-level response to include 1min and 15min for Activity, and 1sec and 1min for Heart Rate
+
+Can I access raw accelerometer (or other sensor) data?
+No, this data cannot be accessed. See above for more information on the data you can access and how you can do so.
+
+--> open questions: 
+Is an offline export of the data possible and supported?
+(i.e. not via web API)
+General  question about the black boxes converting sensor data into activity types or counted steps
+
+
+%%%%%%%
+
+
+
+
+\end {frame}
+
+\begin {frame}{The How -Using Big Tech}
+Examples of research using these wearables - because many people use them, they are already there!
+https://innovations.stanford.edu/wearables 
+https://corona-datenspende.de
+
+
+Example of research of using these wearables - because study participants like them, they are modern and sleek
+-- Sleep Psychosis Study 
+
+\end {frame}
+
+%
+\begin {frame}{The How - Summary}
+Summary: We have solutions for: 
+
+Lab Studies - Short term studies - bulky, precision technology and access to the raw data
+
+Big Data Studies - wide spread use of consumer grade devices and access to summary statistics
+
+
+(Long term) studies looking to 
+	explore data 
+	explain systems 
+	test hypotheses
+	generate theories and hypotheses
+
+
+Technology to be used in therapy and coaching that allows for 
+	personalized therapy
+	
+
+And all of that while having full control over data shared and adhering to the principle of minimal data collection. 
+\end {frame}	
+
+%%%%
+
+\begin {frame}{The How - What has been done}
+
+Nesbitt?
+
+- Examples of Mobile Phone studies:
+- Kiukkonen, N., Blom, J., Dousse, O., Gatica-Perez, D., Laurila, J.: Towards rich mobile phone datasets: Lausanne data collection campaign. In: Proc. ACM Int. Conf. on Pervasive Services (ICPS). Berlin, Germany (2010)
+- Danish study
+- Sandra Servia-Rodríguez et al. 2017. Mobile sensing at the service of mental well-being: a large-scale longitudinal study. In WWW ?17. 103?112.
+
+MEDEA project - Dear Daniela
+The project was delayed and will start in the autumn.
+We have not met and decided things yet sorry.
+C
+
+
+
+Edon project (Alzheimer UK) https://edon-initiative.org/organisation/ -- asked abt choices
+
+https://www.radar-ad.org
+
+https://radar-base.org/index.php/data-sensors/supported-devices/ -- overview of supported devices
+https://radar-base.org/index.php/project/ -- overview of projects based on Radar
+--> We tend to use these types of devices for long duration, large studies as unit cost is lower and they have proven participant acceptability, the consequence is using often propriatory processed data rather than getting raw or high resolution data data -- so it will depend on the precise nature of what you want to measure.
+
+
+http://www.tut.fi/a-wear/
+
+Software:
+#pre-processing, extraction of activities 
+https://github.com/wadpac/oss-dev-webinar-series-pb-field/blob/master/README.md
+
+#digital biomarkers
+http://dbdp.org
+https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-science/article/digital-biomarker-discovery-pipeline-an-open-source-software-platform-for-the-development-of-digital-biomarkers-using-mhealth-and-wearables-data/A6696CEF138247077B470F4800090E63
+
+
+\end {frame}
+
+%%%%%
+
+\begin {frame}{The How - What has been done}
+
+Own Solution - Samsung 
+
+
+\end {frame}
+
+%%%%%
+
+\begin {frame}{The How - What has been done}
+
+Own Solution - Samsung 
+
+
+\end {frame}
+
+%%%%%
+
+\begin {frame}{The How - What has been done}
+
+Own Solution - Samsung 
+
+Possibilities - Positives
+
+Negatives and Downsides/ Limitations
+
+
+\end {frame}
+%%%%%%%%
+
+
+\begin {frame}
+
+https://asteroidos.org/news/
+
+\end {frame}
+
+%%%%%
+
+\begin {frame}{The Future }
+
+- Data Privacy is paramount
+- Research platforms allow access to some but not all data
+- API's do not allow access to all data
+- Modularity to ensure only those sensors that are needed are included (and that they ARE included)
+- Costs are high - open science might be an answer?
+
+\end {frame}
+
+
+%%%%%
+
+\begin {frame}{The Future }
+- Show design process until now - mission and network of stakeholders
+- Multifaceted problem
+- Difficult to get people on board, who commit and stay on board - certainly at beginning
+- How do you build a OS / Open Hardware community?
+- What are the benefits - especially when trying to get academics involved - incentive structure is not built for such projects
+
+\end {frame}
+
+
+\end{document}
+
+
+
+
+
