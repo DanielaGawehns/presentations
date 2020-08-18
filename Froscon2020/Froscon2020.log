@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.4.13)  17 AUG 2020 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.4.13)  18 AUG 2020 17:03
 entering extended mode
 **./Froscon2020.tex
 (Froscon2020.tex
@@ -1334,125 +1334,174 @@ pdftex.map}
 
  <./img/uni-leiden.pdf>] (Froscon2020.toc) [2
 
-] [3
-
-] [4
-
-] [5
-
-] [6
-
 ]
-[7
+<img/IconOne.png, id=96, 100.375pt x 100.375pt>
+File: img/IconOne.png Graphic file (type png)
+<use img/IconOne.png>
+Package pdftex.def Info: img/IconOne.png  used on input line 102.
+(pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
+ [3
+
+ <./img/IconOne.png>]
+<img/IconTwo.png, id=105, 100.375pt x 100.375pt>
+File: img/IconTwo.png Graphic file (type png)
+<use img/IconTwo.png>
+Package pdftex.def Info: img/IconTwo.png  used on input line 115.
+(pdftex.def)             Requested size: 142.26378pt x 142.28535pt.
+ [4
+
+ <./img/IconTwo.png>]
+<img/IconThree.png, id=114, 100.375pt x 100.375pt>
+File: img/IconThree.png Graphic file (type png)
+<use img/IconThree.png>
+Package pdftex.def Info: img/IconThree.png  used on input line 128.
+(pdftex.def)             Requested size: 142.26378pt x 142.28535pt.
+ [5
+
+ <./img/IconThree.png>]
+File: img/IconOne.png Graphic file (type png)
+<use img/IconOne.png>
+Package pdftex.def Info: img/IconOne.png  used on input line 142.
+(pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
+File: img/IconTwo.png Graphic file (type png)
+<use img/IconTwo.png>
+Package pdftex.def Info: img/IconTwo.png  used on input line 142.
+(pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
+File: img/IconThree.png Graphic file (type png)
+<use img/IconThree.png>
+Package pdftex.def Info: img/IconThree.png  used on input line 142.
+(pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
+ [6
+
+] [7
 
 ] [8
 
-] [9
+]
+<img/OverviewUsecases.jpeg, id=143, 1027.84pt x 770.88pt>
+File: img/OverviewUsecases.jpeg Graphic file (type jpg)
+<use img/OverviewUsecases.jpeg>
+Package pdftex.def Info: img/OverviewUsecases.jpeg  used on input line 196.
+(pdftex.def)             Requested size: 227.62204pt x 170.71158pt.
+ [9
 
-] [10
+ <./img/OverviewUsecases.jpeg>]
+
+Froscon2020.tex:215: LaTeX Error: File `img/balance' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[10
 
 ]
-Overfull \vbox (11.41782pt too high) has occurred while \output is active []
 
+Froscon2020.tex:260: LaTeX Error: File `img/MedDevices' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Froscon2020.tex:260: LaTeX Error: File `img/ConsDevices' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [11
 
 ]
-Overfull \hbox (4.58809pt too wide) in paragraph at lines 350--350
-\OT1/lmr/m/n/10.95 http://researchkit.org/docs/docs/Overview/GuideOverview.html
-  
- []
 
-Froscon2020.tex:350: Missing $ inserted
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Froscon2020.tex:260: LaTeX Error: File `img/MedDevices' not found.
 
-Froscon2020.tex:350: Missing $ inserted
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (524.0481pt too wide) in paragraph at lines 350--350
-\OT1/lmr/m/n/10.95 https://help.fitbit.com/articles/en$[][]\OT1/lmss/bx/sl/10.9
-5 S\OML/lmm/b/it/10.95 =\OT1/lmss/bx/sl/10.95 Help[]rticle\OML/lmm/b/it/10.95 =
-\OT1/lmss/bx/n/10.95 1133\OML/lmm/b/it/10.95 :\OT1/lmss/bx/sl/10.95 htmorviaweb
-APIforaccessingdatafromFitbitdevicesandanyonecandevelopanapplicationtoaccessdat
-afromadevice \OMS/lmsy/b/n/10.95   
- []
+Froscon2020.tex:260: LaTeX Error: File `img/ConsDevices' not found.
 
-
-Overfull \hbox (112.18883pt too wide) in paragraph at lines 350--350
-\OT1/lmss/bx/sl/10.95 inhighertemporalresolution\OML/lmm/b/it/10.95 ; \OT1/lmss
-/bx/sl/10.95 includingGPSdata\OT1/cmss/bx/n/10.95 (\OT1/lmss/bx/sl/10.95 HeartR
-ate\OML/lmm/b/it/10.95 ; \OT1/lmss/bx/sl/10.95 Sleep\OML/lmm/b/it/10.95 ; \OT1/
-lmss/bx/sl/10.95 ActivityPatterns\OT1/cmss/bx/n/10.95 ) \OMS/lmsy/b/n/10.95   
- []
-
-
-Overfull \hbox (86.69714pt too wide) in paragraph at lines 350--350
-\OT1/lmss/bx/sl/10.95 levelresponsetoinclude\OT1/lmss/bx/n/10.95 1\OT1/lmss/bx/
-sl/10.95 minand\OT1/lmss/bx/n/10.95 15\OT1/lmss/bx/sl/10.95 minforActivity\OML/
-lmm/b/it/10.95 ; \OT1/lmss/bx/sl/10.95 and\OT1/lmss/bx/n/10.95 1\OT1/lmss/bx/sl
-/10.95 secand\OT1/lmss/bx/n/10.95 1\OT1/lmss/bx/sl/10.95 minforHeartRate$[]  
- []
-
-
-Overfull \vbox (824.45525pt too high) detected at line 350
- []
-
-
-Overfull \vbox (11.41782pt too high) has occurred while \output is active []
-
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [12
 
-]
-Overfull \vbox (11.41782pt too high) has occurred while \output is active []
+] [13
 
-
-[13
+] [14
 
 ]
-Overfull \vbox (11.41782pt too high) has occurred while \output is active []
+Froscon2020.tex:367: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Froscon2020.tex:367: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-[14
+Overfull \vbox (103.65492pt too high) detected at line 367
+ []
+
+[15
+
+] [16
+
+] [17
 
 ]
-Froscon2020.tex:424: Illegal parameter number in definition of \iterate
+Froscon2020.tex:442: Illegal parameter number in definition of \iterate
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-Froscon2020.tex:424: Illegal parameter number in definition of \iterate
+Froscon2020.tex:442: Illegal parameter number in definition of \iterate
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-Froscon2020.tex:424: Illegal parameter number in definition of \iterate
+Froscon2020.tex:442: Illegal parameter number in definition of \iterate
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-Froscon2020.tex:424: Illegal parameter number in definition of \iterate
+Froscon2020.tex:442: Illegal parameter number in definition of \iterate
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-Froscon2020.tex:424: Illegal parameter number in definition of \beamer@doifinfr
+Froscon2020.tex:442: Illegal parameter number in definition of \beamer@doifinfr
 ame
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-Froscon2020.tex:424: Illegal parameter number in definition of \beamer@doifinfr
+Froscon2020.tex:442: Illegal parameter number in definition of \beamer@doifinfr
 ame
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 
-Froscon2020.tex:424: Package inputenc Error: Invalid UTF-8 byte sequence.
+Froscon2020.tex:442: Package inputenc Error: Invalid UTF-8 byte sequence.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help
@@ -1462,14 +1511,14 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-Froscon2020.tex:424: You can't use `macro parameter character #' in horizontal 
+Froscon2020.tex:442: You can't use `macro parameter character #' in horizontal 
 mode
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-Froscon2020.tex:424: You can't use `macro parameter character #' in internal ve
+Froscon2020.tex:442: You can't use `macro parameter character #' in internal ve
 rtical mode
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1477,20 +1526,10 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \vbox (267.46335pt too high) detected at line 424
+Overfull \vbox (253.86334pt too high) detected at line 442
  []
 
-
-Overfull \vbox (11.41782pt too high) has occurred while \output is active []
-
-
-[15
-
-] [16
-
-] [17
-
-] [18
+[18
 
 ] [19
 
@@ -1499,6 +1538,12 @@ Overfull \vbox (11.41782pt too high) has occurred while \output is active []
 ] [21
 
 ] [22
+
+] [23
+
+] [24
+
+] [25
 
 ]
 \tf@nav=\write6
@@ -1510,43 +1555,43 @@ Overfull \vbox (11.41782pt too high) has occurred while \output is active []
 \tf@snm=\write8
 \openout8 = `Froscon2020.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 500.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 500.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 524.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 524.
  (Froscon2020.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 500.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 500.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 524.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 524.
 Package rerunfilecheck Info: File `Froscon2020.out' has not changed.
-(rerunfilecheck)             Checksum: FCF4F2A627FF549DD155CC2FB4697B50;528.
+(rerunfilecheck)             Checksum: 219791B872CCAD7705FBF77320D33AD7;551.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24931 strings out of 494894
- 530353 string characters out of 3176924
- 782130 words of memory out of 3000000
- 27919 multiletter control sequences out of 15000+200000
- 79497 words of font info for 78 fonts, out of 3000000 for 9000
+ 25034 strings out of 494894
+ 532302 string characters out of 3176924
+ 776130 words of memory out of 3000000
+ 27994 multiletter control sequences out of 15000+200000
+ 82443 words of font info for 79 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 56i,17n,71p,780b,853s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,17n,71p,780b,859s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/Users/daniela/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/d
 vips/lm/lm-rm.enc}{/Users/daniela/Library/Application Support/MiKTeX/texmfs/ins
 tall/fonts/enc/dvips/lm/lm-mathit.enc}{/Users/daniela/Library/Application Suppo
 rt/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc}</Users/daniela/Libra
-ry/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cms
-sbx10.pfb></Users/daniela/Library/Application Support/MiKTeX/texmfs/install/fon
-ts/type1/public/lm/lmb10.pfb></Users/daniela/Library/Application Support/MiKTeX
-/texmfs/install/fonts/type1/public/lm/lmbsy10.pfb></Users/daniela/Library/Appli
-cation Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmib10.pfb></Users/
-daniela/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm
-/lmr10.pfb></Users/daniela/Library/Application Support/MiKTeX/texmfs/install/fo
-nts/type1/public/lm/lmr9.pfb></Users/daniela/Library/Application Support/MiKTeX
-/texmfs/install/fonts/type1/public/lm/lmssbo10.pfb></Users/daniela/Library/Appl
-ication Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Froscon2020.pdf (22 pages, 493615 bytes).
+ry/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmb10.pfb></
+Users/daniela/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
+lic/lm/lmbsy10.pfb></Users/daniela/Library/Application Support/MiKTeX/texmfs/in
+stall/fonts/type1/public/lm/lmbx10.pfb></Users/daniela/Library/Application Supp
+ort/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmib10.pfb></Users/daniela/Lib
+rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb>
+</Users/daniela/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/p
+ublic/lm/lmr9.pfb></Users/daniela/Library/Application Support/MiKTeX/texmfs/ins
+tall/fonts/type1/public/lm/lmssbo10.pfb></Users/daniela/Library/Application Sup
+port/MiKTeX/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on Froscon2020.pdf (25 pages, 707470 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,8 @@
-\beamer@sectionintoc {1}{Who uses Activity Trackers for Research?}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Three use cases}{5}{0}{1}
-\beamer@subsectionintoc {1}{2}{Activity: Alarm bells}{9}{0}{1}
-\beamer@sectionintoc {2}{Which hardware and software options exist? (And why are some more problematic than others?)}{11}{0}{2}
-\beamer@sectionintoc {3}{What are current solutions?}{16}{0}{3}
-\beamer@sectionintoc {4}{What's next?}{21}{0}{4}
-\beamer@subsectionintoc {4}{1}{Activity: Next steps and avenues}{22}{0}{4}
+\beamer@sectionintoc {1}{Using Activity Trackers for Research}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Participating in Research}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Activity: Alarm bells}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{Conducting Research}{8}{0}{1}
+\beamer@sectionintoc {2}{Which hardware and software options exist?}{10}{0}{2}
+\beamer@sectionintoc {3}{What are current solutions?}{19}{0}{3}
+\beamer@sectionintoc {4}{What's next?}{24}{0}{4}
+\beamer@subsectionintoc {4}{1}{Activity: Next steps and avenues}{25}{0}{4}
