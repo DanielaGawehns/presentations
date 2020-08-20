@@ -210,7 +210,7 @@ What makes those activity trackers so attractive?
 %Data Quality - Scalability
 %Interoperability - Utility
 
-%Balancing act btw a lot of issues and factors!
+%Balancing act btw a lot of issues and factors! Looking at why ppl are using closed systems and looking at the advantages those systems promise is useful when designing or searching for an open system - it helps you design a useful system
 
 \end {frame}
 %%%%%%%%%%%
@@ -242,16 +242,19 @@ What makes those activity trackers so attractive?
 
 \begin {column}{0.5\textwidth}
 
+%choosing a platform not just a piece of hardware, but a combination of hardware, firmware, operating system and software stack -- all in a bundle and often, you wont be able to take it apart
+
 \textbf {Consumer Grade Devices}
 
 \includegraphics[width=30mm]{img/ConsDevices}
 
 \begin {itemize}
-\item Apple OS
-\item Wear OS
-\item fitbit 
-\item Tizen
-\item astroid 
+\item Apple WatchOS
+\item fitbit  
+\item Garmin Watch OS
+\item Wear OS / Android for wearables
+\item Tizen for Wearables
+\item astroid %- virtual machine on android OS
 \end {itemize}
 
 \end {column}
@@ -259,29 +262,58 @@ What makes those activity trackers so attractive?
 
 \end{frame}
 
+%%%%%%%%%%%%
+
+
+
 
 
 %%%%%%%%%%%
 
 
-\begin {frame}{The How - BigTech}
+\begin {frame}{The How - Apple Watch}
 
-Apple Watch
+\begin {itemize}
+\item Partner with the Apple Research App %props totally not possible unless you'r Harvard or MIT
+\item Researchkit and Carekit frameworks 
+\pause
+	\begin {itemize}
+	\item bring your own data storage (?!)
+	\item locked into what the frameworks allow (e.g., no background data collection)
+	\item locked into Apple Watches
+	\end {itemize}
+%are open source, so no involvement by apple on what you are doing (?)
+%you can bring your own backend and manage data storage yourself (!?) %locked in to use apple watches, locked in to use the functions that the frameworks supply %for example background data collection might not be possible
+\pause
+\item Apple Watch App (e.g. Apple Watch SensorLog) 
+	\begin {itemize}
+	\item locked in by certification/ app store process 
+	\item locked in to Apple Watches
+	\end {itemize}
 
-Researchkit: Tasks (e.g., Stroop Task, Walk as quick as you can)
-		     No background data collection
-		     
-Healthkit: Access Health data via this kit
+\end {itemize}
 
-CoreMotion: "Core Motion reports motion- and environment-related data from the onboard hardware of iOS devices, including from the accelerometers and gyroscopes, and from the pedometer, magnetometer, and barometer."
-
---> open questions: 
-will data be sent only btw app and researcher?
-which temporal granularity of raw sensor data output is achievable?
-what is the reliability/ validity of the in-built cognitive assessments?
 \end {frame}
 
-%%%%%%%%
+%%%%%%%%%%%%
+
+
+%https://www.researchandcare.org
+
+%Investigator Support Program to get watches for your study
+
+%Researchkit: Tasks (e.g., Stroop Task, Walk as quick as you can)
+%		     No background data collection
+		     
+%Healthkit: Access Health data via this kit
+
+%CoreMotion: "Core Motion reports motion- and environment-related data from the onboard hardware of iOS devices, including from the accelerometers and gyroscopes, and from the pedometer, magnetometer, and barometer."
+
+%--> open questions: 
+%will data be sent only btw app and researcher?
+%which temporal granularity of raw sensor data output is achievable?
+%what is the reliability/ validity of the in-built cognitive assessments?
+
 
 %General: Investigator Support Pilot and Apple watch limited grant program
 
@@ -320,135 +352,255 @@ what is the reliability/ validity of the in-built cognitive assessments?
 %Looking into Accelerometer: value of recording interval seems to depend on hardware? ??
 %Interesting finding: they have a function and objects to monitor movement disorders, namely tremors
 
+%%%%%%%%%
+
+\begin {frame}{The How - Fitbit}
+
+\begin{itemize}
+\item Use Fitabase  %a company providing research support
+\item Use web API %- extract customer data per participant 
+	\begin{itemize}
+	\item Companion Application to Watch Application file transfer  %can this be done via a private network? fetch API seems to allow this - at least that's what the docs say
+	\item locked in certification  %private apps need to go through publishing process? you might be able to play the system and have several dev accounts and associated dev watches with it - only possible on some, not all watches: Fitbit Versa, Versa Lite, Versa 2, and Ionic.
+	\end{itemize}
+\item Use bulk download via fitbit account %doable for small studies - locked in to what fitbit grants you access to via the companion application
+\end {itemize}
+
+\end {frame}
+%https://healthsolutions.fitbit.com/researchers/
+%https://healthsolutions.fitbit.com/researchers/faqs/ %but the accelerometer API DOES give you access to raw accelerometer data??
+%https://www.fitabase.com - company providing researchsupport
+
+%broad product lineup with devices that track a variety of metrics, including step count, floors climbed, distance, calories burned, active minutes, sleep time and stages, and heart rate
+
+%Either summary data per account: 
+%https://help.fitbit.com/articles/en_US/Help_article/1133.htm
+
+%or via web API for accessing data from Fitbit devices and anyone can develop an application to access data from a device - in higher temporal resolution, including GPS data (Heart Rate, Sleep, Activity Patterns) --> Intraday support can extend the detail-level response to include 1min and 15min for Activity, and 1sec and 1min for Heart Rate
+%on researchers/faq:
+%Can I access raw accelerometer (or other sensor) data?
+%No, this data cannot be accessed. See above for more information on the data you can access and how you can do so.
+
+%--> open questions: 
+%Is an offline export of the data possible and supported?
+%(i.e. not via web API)
+%General  question about the black boxes converting sensor data into activity types or counted steps
+
+%%%%%%%%%%%%%%%%%
 
 
 
 %%%%%%%%%				
-\begin {frame}{The How - BigTech}		
-Garmin
-https://www.fitabase.com - company providing researchsupport
-https://www.fitabase.com/how-it-works/faq/
-https://www.fitabase.com/resources/knowledge-base/learn-about-fitbit-data/data-resolutions/
-granularity of data available
+\begin {frame}{The How - Garmin}		
+
+%https://www.fitabase.com - company providing researchsupport
+%https://www.fitabase.com/how-it-works/faq/
+%https://www.fitabase.com/resources/knowledge-base/learn-about-fitbit-data/data-resolutions/
+%granularity of data available
+
+\begin{itemize}
+\item Use Fitabase - a company providing research support
+\item Use the Health API 
+\item Use the Health SDK 
+\end {itemize}
+
+%https://developer.garmin.com/health-api/overview/ 
+%Health API and Health SDK
+
+%Health SDK allows custom recording of Heart Rate, Activity Types - and most probably also accelerometer and gyroscope data (but no confirmation or link information for any of this)
 
 
-https://developer.garmin.com/health-api/overview/ 
-Health API and Health SDK
-
-Health SDK allows custom recording of Heart Rate, Activity Types - and most probably also accelerometer and gyroscope data (but no confirmation or link information for any of this)
-
-
-Health API gives access to a range of data collected, activity types, sleep, heart rate; I am pretty sure that extraction of raw accelerometer data is not possible via this 
-\end {frame}
-
-%%%%%%%%%
-
-\begin {frame}{The How - BigTech}
-- Fitbit
-https://healthsolutions.fitbit.com/researchers/
-https://healthsolutions.fitbit.com/researchers/faqs/
-https://www.fitabase.com - company providing researchsupport
-
-broad product lineup with devices that track a variety of metrics, including step count, floors climbed, distance, calories burned, active minutes, sleep time and stages, and heart rate
-
-Either summary data per account: 
-https://help.fitbit.com/articles/en_US/Help_article/1133.htm
-
-or via web API for accessing data from Fitbit devices and anyone can develop an application to access data from a device - in higher temporal resolution, including GPS data (Heart Rate, Sleep, Activity Patterns) --> Intraday support can extend the detail-level response to include 1min and 15min for Activity, and 1sec and 1min for Heart Rate
-
-Can I access raw accelerometer (or other sensor) data?
-No, this data cannot be accessed. See above for more information on the data you can access and how you can do so.
-
---> open questions: 
-Is an offline export of the data possible and supported?
-(i.e. not via web API)
-General  question about the black boxes converting sensor data into activity types or counted steps
+%Health API gives access to a range of data collected, activity types, sleep, heart rate; I am pretty sure that extraction of raw accelerometer data is not possible via this 
 
 \end {frame}
+
 
 
 %%%%%%%%%%%%%%%%%
 
-\begin {frame}{The How -Using Big Tech}
-Examples of research using these wearables - because many people use them, they are already there!
-https://innovations.stanford.edu/wearables 
-https://corona-datenspende.de
+\begin {frame}{The How - Using Big Tech}
+
+\begin {itemize}
+\item Availability, Scalability % for population studies - large trends 
+	\begin {itemize}
+	\item https://corona-datenspende.de %it is an app to read data from health and fitness apps - i.e. not to read info directly from the watches
+	\end {itemize}
+\pause
+\item Design Choice - Working with participants or patients
+\end {itemize}
+
+%\includegraphics[width=30mm]{img/datadonation}
 
 
-Example of research of using these wearables - because study participants like them, they are modern and sleek
+\end {frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 
--- Sleep Psychosis Study 
+%%%%%%%%%%%%%%%%%
+
+\begin {frame}{The How - Choices }
+
+"To \textbf{enhance acceptability} and minimize user burden and stigma, widely available consumer-oriented technologies were therefore considered. The user groups favored the wrist-worn Fitbit Charge HR (Fitbit Inc, San Francisco) due to its \textbf{appearance as a lifestyle device} that is acceptable to both younger and older users and the \textbf{ability to view metrics} relating to sleep and activity via the Fitbit app."
+
+\hspace {1.5 cm}
+
+\small{Meyer N., et al (2018): Capturing Rest-Activity Profiles in Schizophrenia Using Wearable and Mobile Technologies: Development, Implementation, Feasibility, and Acceptability of a Remote Monitoring Platform}
+
+\end {frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin {frame}{The How - Choices }
+"Do these devices, therefore, have a role as tools for clinical prediction?\\
+We suggest that they do, \textbf{depending on the question being asked [58]}. Our goal is not to draw conclusions about sleep parameters (eg, total sleep time, sleep efficiency) per se, for which the use of unvalidated devices would be inappropriate. Rather, our \textbf{objective is to ask whether changes in longitudinal rest-activity patterns} at the within-person level, captured using wearable device and smartphone sensors, \textbf{predict deterioration} in clinical status."
+
+\end {frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin {frame} {Locked - in: corona-datenspende}
+
+%Apart from being locked-in on one set of hardware or one software release and depending on externals to be able to run your app, also the collected variables are "locked -in"
+
+% insert screenshot corona datenspende app 
+\center
+\includegraphics[width=100mm]{img/datadonation}
+
+% these all look to me like derivatives of accelerometer data --- where you have accelerometer data + black box == output
+
+% What does this do for your conclusions??
+
+% What does this do on the long run for your product, intervention, generalization and hypothesis generation and theory building?
+
+% aim of datenspende: die Ausbreitung der Infektionen einschätzen zu können - i.e. no individual prediction of how you are doing, but general trends; they use postal code for approximation of where people are - more or less 
 
 \end {frame}
 
 
 %%%%%%%%%%%%%%%%%%%%
 \begin {frame}{The How - Summary}
+
 Summary: We have solutions for: 
 
-Lab Studies - Short term studies - bulky, precision technology and access to the raw data
+\begin {itemize}
+\item Lab Studies \\ \pause bulky, precision technology and access to the raw data
+\pause 
+\item Big Data Studies \\ \pause  wide spread use of consumer grade devices and access to summary statistics
+\pause 
+\item Real life Data Collection \\ \pause  if the data supplied by platforms are in accordance with what you want to achieve
 
-Big Data Studies - wide spread use of consumer grade devices and access to summary statistics
+\end {itemize}
+
+%(Long term) studies looking to 
+%	explore data 
+%	explain systems 
+%	test hypotheses
+%	generate theories and hypotheses
 
 
-(Long term) studies looking to 
-	explore data 
-	explain systems 
-	test hypotheses
-	generate theories and hypotheses
-
-
-Technology to be used in therapy and coaching that allows for 
-	personalized therapy
+%Technology to be used in therapy and coaching that allows for 
+%	personalized therapy
 	
 
-And all of that while having full control over data shared and adhering to the principle of minimal data collection. 
+%And all of that while having full control over data shared and adhering to the principle of minimal data collection. 
+
 \end {frame}	
 
-%%%%
 
-\begin {frame}{The How - What has been done}
+%%%%%%%%%%%%%
 
-Nesbitt?
+\begin {frame}{The How - Case Studies}
 
-- Examples of Mobile Phone studies:
-- Kiukkonen, N., Blom, J., Dousse, O., Gatica-Perez, D., Laurila, J.: Towards rich mobile phone datasets: Lausanne data collection campaign. In: Proc. ACM Int. Conf. on Pervasive Services (ICPS). Berlin, Germany (2010)
-- Danish study
-- Sandra Servia-Rodríguez et al. 2017. Mobile sensing at the service of mental well-being: a large-scale longitudinal study. In WWW ?17. 103?112.
+\center
+\includegraphics[width=80mm]{img/OverviewUsecases}
 
-MEDEA project - The project was delayed and will start in the autumn.
-
-
-Edon project (Alzheimer UK) https://edon-initiative.org/organisation/ -- will make review of their tech choice open
-
-
-https://www.radar-ad.org
-https://radar-base.org/index.php/data-sensors/supported-devices/ -- overview of supported devices
-https://radar-base.org/index.php/project/ -- overview of projects based on Radar
---> We tend to use these types of devices for long duration, large studies as unit cost is lower and they have proven participant acceptability, the consequence is using often propriatory processed data rather than getting raw or high resolution data data -- so it will depend on the precise nature of what you want to measure.
-
-
-http://www.tut.fi/a-wear/
-
-Software:
-#pre-processing, extraction of activities 
-https://github.com/wadpac/oss-dev-webinar-series-pb-field/blob/master/README.md
-
-#digital biomarkers
-http://dbdp.org
-https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-science/article/digital-biomarker-discovery-pipeline-an-open-source-software-platform-for-the-development-of-digital-biomarkers-using-mhealth-and-wearables-data/A6696CEF138247077B470F4800090E63
-
+%% these are not Lab Studies
+%% these are not Big Data Studies
+%% these are Real Life Data Collection Studies -- But is the data that we can extract good enough?? 
 
 \end {frame}
+
+%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%
+
+\begin {frame}{The How - Case Studies}
+
+\center
+\includegraphics[width=80mm]{img/OverviewUsecasesModels}
+
+
+
+%% these are not Lab Studies
+%% these are not Big Data Studies
+%% these are Real Life Data Collection Studies -- But is the data that we can extract good enough?? 
+
+\end {frame}
+
+%%%%%%%%%%%%%%
+
+\begin {frame}{The How - Case Studies}
+
+\center
+\includegraphics[width=60mm]{img/VorhangZu2}
+
+\vspace {1.5cm}
+
+{\fontsize{5}{6}\selectfont Photo by Eduard Militaru on Unsplash} 
+
+% and then there was the question abt privacy
+% non of the mentioned solutions seem to allow offline communication btw only the wristband and researcher laptop??
+% --> this is also a point for the kids and older adults; but mainly for the ex-detainees. 
+
+\end {frame}
+
+
+%%%%%%%%%%%%%%%
+
+
+%Nesbitt?
+
+%Examples of Mobile Phone studies:
+%Kiukkonen, N., Blom, J., Dousse, O., Gatica-Perez, D., Laurila, J.: Towards rich mobile phone datasets: Lausanne data collection campaign. In: Proc. ACM Int. Conf. on Pervasive Services (ICPS). Berlin, Germany (2010)
+%Danish study
+%Sandra Servia-Rodríguez et al. 2017. Mobile sensing at the service of mental well-being: a large-scale longitudinal study. In WWW ?17. 103?112.
+
+%MEDEA project - The project was delayed and will start in the autumn.
+
+
+%Edon project (Alzheimer UK) https://edon-initiative.org/organisation/ -- will make review of their tech choice open
+
+
+%https://www.radar-ad.org
+%https://radar-base.org/index.php/data-sensors/supported-devices/ -- overview of supported devices
+%https://radar-base.org/index.php/project/ -- overview of projects based on Radar
+%--> We tend to use these types of devices for long duration, large studies as unit cost is lower and they have proven participant acceptability, the consequence is using often propriatory processed data rather than getting raw or high resolution data data -- so it will depend on the precise nature of what you want to measure.
+
+
+%http://www.tut.fi/a-wear/
+
+%Software:
+%#pre-processing, extraction of activities 
+%https://github.com/wadpac/oss-dev-webinar-series-pb-field/blob/master/README.md
+
+%#digital biomarkers
+%http://dbdp.org
+%https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-science/article/digital-biomarker-discovery-pipeline-an-open-source-software-platform-for-the-development-of-digital-biomarkers-using-mhealth-and-wearables-data/A6696CEF138247077B470F4800090E63
+
+
+
 
 \section {What are current solutions?}
 
 %%%%%
 
-\begin {frame}{The How - What has been done}
+\begin {frame}{The How }
 
-Own Solution - Samsung 
-
+\begin {itemize}
+\item Wear OS / Android for wearables
+\item Tizen for Wearables
+\item astroid %- virtual machine on android OS
+\end {itemize}
 
 \end {frame}
 
@@ -499,6 +651,7 @@ https://asteroidos.org/news/
 - Usually we are working towards sth - let's make sure it is in accordance with what we want to create with the tech-- also already at exploratory levels
 
 \end {frame}
+
 
 \section {What's next?}
 
