@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.4.13)  20 AUG 2020 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.4.13)  21 AUG 2020 17:04
 entering extended mode
 **./Froscon2020.tex
 (Froscon2020.tex
@@ -1335,59 +1335,91 @@ pdftex.map}
  <./img/uni-leiden.pdf>] (Froscon2020.toc) [2
 
 ]
-<img/IconOne.png, id=96, 100.375pt x 100.375pt>
-File: img/IconOne.png Graphic file (type png)
-<use img/IconOne.png>
-Package pdftex.def Info: img/IconOne.png  used on input line 102.
-(pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
+<img/trackers.jpeg, id=96, 3276.24pt x 2457.18pt>
+File: img/trackers.jpeg Graphic file (type jpg)
+<use img/trackers.jpeg>
+Package pdftex.def Info: img/trackers.jpeg  used on input line 98.
+(pdftex.def)             Requested size: 227.62204pt x 170.7079pt.
  [3
 
- <./img/IconOne.png>]
-<img/IconTwo.png, id=105, 100.375pt x 100.375pt>
-File: img/IconTwo.png Graphic file (type png)
-<use img/IconTwo.png>
-Package pdftex.def Info: img/IconTwo.png  used on input line 115.
-(pdftex.def)             Requested size: 142.26378pt x 142.28535pt.
+ <./img/trackers.jpeg>]
+<img/IconOne.png, id=102, 100.375pt x 100.375pt>
+File: img/IconOne.png Graphic file (type png)
+<use img/IconOne.png>
+Package pdftex.def Info: img/IconOne.png  used on input line 116.
+(pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
  [4
 
- <./img/IconTwo.png>]
-<img/IconThree.png, id=114, 100.375pt x 100.375pt>
-File: img/IconThree.png Graphic file (type png)
-<use img/IconThree.png>
-Package pdftex.def Info: img/IconThree.png  used on input line 128.
+ <./img/IconOne.png>]
+<img/IconTwo.png, id=111, 100.375pt x 100.375pt>
+File: img/IconTwo.png Graphic file (type png)
+<use img/IconTwo.png>
+Package pdftex.def Info: img/IconTwo.png  used on input line 129.
 (pdftex.def)             Requested size: 142.26378pt x 142.28535pt.
  [5
+
+ <./img/IconTwo.png>]
+<img/IconThree.png, id=120, 100.375pt x 100.375pt>
+File: img/IconThree.png Graphic file (type png)
+<use img/IconThree.png>
+Package pdftex.def Info: img/IconThree.png  used on input line 142.
+(pdftex.def)             Requested size: 142.26378pt x 142.28535pt.
+ [6
 
  <./img/IconThree.png>]
 File: img/IconOne.png Graphic file (type png)
 <use img/IconOne.png>
-Package pdftex.def Info: img/IconOne.png  used on input line 142.
+Package pdftex.def Info: img/IconOne.png  used on input line 161.
 (pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
 File: img/IconTwo.png Graphic file (type png)
 <use img/IconTwo.png>
-Package pdftex.def Info: img/IconTwo.png  used on input line 142.
+Package pdftex.def Info: img/IconTwo.png  used on input line 161.
 (pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
 File: img/IconThree.png Graphic file (type png)
 <use img/IconThree.png>
-Package pdftex.def Info: img/IconThree.png  used on input line 142.
+Package pdftex.def Info: img/IconThree.png  used on input line 161.
 (pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
- [6
 
-] [7
-
-] [8
+[7
 
 ]
-<img/OverviewUsecases.jpeg, id=143, 1027.84pt x 770.88pt>
+File: img/IconOne.png Graphic file (type png)
+<use img/IconOne.png>
+Package pdftex.def Info: img/IconOne.png  used on input line 161.
+(pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
+File: img/IconTwo.png Graphic file (type png)
+<use img/IconTwo.png>
+Package pdftex.def Info: img/IconTwo.png  used on input line 161.
+(pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
+File: img/IconThree.png Graphic file (type png)
+<use img/IconThree.png>
+Package pdftex.def Info: img/IconThree.png  used on input line 161.
+(pdftex.def)             Requested size: 85.35826pt x 85.36356pt.
+ [8
+
+] [9
+
+] [10
+
+]
+<img/OverviewUsecases.jpeg, id=156, 1027.84pt x 770.88pt>
 File: img/OverviewUsecases.jpeg Graphic file (type jpg)
 <use img/OverviewUsecases.jpeg>
-Package pdftex.def Info: img/OverviewUsecases.jpeg  used on input line 196.
+Package pdftex.def Info: img/OverviewUsecases.jpeg  used on input line 219.
 (pdftex.def)             Requested size: 227.62204pt x 170.71158pt.
- [9
+ [11
 
  <./img/OverviewUsecases.jpeg>]
+<img/balance.jpg, id=164, 5935.17375pt x 3948.7525pt>
+File: img/balance.jpg Graphic file (type jpg)
+<use img/balance.jpg>
+Package pdftex.def Info: img/balance.jpg  used on input line 244.
+(pdftex.def)             Requested size: 170.71652pt x 113.57697pt.
+ [12
 
-Froscon2020.tex:215: LaTeX Error: File `img/balance' not found.
+ <./img/balance.jpg>]
+
+Froscon2020.tex:293: LaTeX Error: File `img/MedDevices' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1396,11 +1428,21 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[10
+
+Froscon2020.tex:293: LaTeX Error: File `img/ConsDevices' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[13
 
 ]
 
-Froscon2020.tex:263: LaTeX Error: File `img/MedDevices' not found.
+Froscon2020.tex:293: LaTeX Error: File `img/MedDevices' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1410,7 +1452,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Froscon2020.tex:263: LaTeX Error: File `img/ConsDevices' not found.
+Froscon2020.tex:293: LaTeX Error: File `img/ConsDevices' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1419,34 +1461,7 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[11
-
-]
-
-Froscon2020.tex:263: LaTeX Error: File `img/MedDevices' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Froscon2020.tex:263: LaTeX Error: File `img/ConsDevices' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[12
-
-] [13
-
-] [14
+[14
 
 ] [15
 
@@ -1462,19 +1477,19 @@ If that doesn't work, type  X <return>  to quit.
 
 ] [21
 
+] [22
+
+] [23
+
 ]
-<img/datadonation.png, id=225, 1011.78pt x 562.1pt>
+<img/datadonation.png, id=240, 1011.78pt x 562.1pt>
 File: img/datadonation.png Graphic file (type png)
 <use img/datadonation.png>
-Package pdftex.def Info: img/datadonation.png  used on input line 477.
+Package pdftex.def Info: img/datadonation.png  used on input line 508.
 (pdftex.def)             Requested size: 284.52756pt x 158.07307pt.
- [22
+ [24
 
- <./img/datadonation.png>] [23
-
-] [24
-
-] [25
+ <./img/datadonation.png>] [25
 
 ] [26
 
@@ -1482,36 +1497,36 @@ Package pdftex.def Info: img/datadonation.png  used on input line 477.
 
 ] [28
 
+] [29
+
+] [30
+
 ]
 File: img/OverviewUsecases.jpeg Graphic file (type jpg)
 <use img/OverviewUsecases.jpeg>
-Package pdftex.def Info: img/OverviewUsecases.jpeg  used on input line 521.
+Package pdftex.def Info: img/OverviewUsecases.jpeg  used on input line 552.
 (pdftex.def)             Requested size: 227.62204pt x 170.71158pt.
- [29
+ [31
 
 ]
-<img/OverviewUsecasesModels.png, id=276, 1027.84pt x 770.88pt>
+<img/OverviewUsecasesModels.png, id=292, 1027.84pt x 770.88pt>
 File: img/OverviewUsecasesModels.png Graphic file (type png)
 <use img/OverviewUsecasesModels.png>
-Package pdftex.def Info: img/OverviewUsecasesModels.png  used on input line 538
+Package pdftex.def Info: img/OverviewUsecasesModels.png  used on input line 569
 .
 (pdftex.def)             Requested size: 227.62204pt x 170.71158pt.
- [30
+ [32
 
  <./img/OverviewUsecasesModels.png>]
-<img/VorhangZu2.jpg, id=284, 5492.52pt x 3661.68pt>
+<img/VorhangZu2.jpg, id=300, 5492.52pt x 3661.68pt>
 File: img/VorhangZu2.jpg Graphic file (type jpg)
 <use img/VorhangZu2.jpg>
-Package pdftex.def Info: img/VorhangZu2.jpg  used on input line 550.
+Package pdftex.def Info: img/VorhangZu2.jpg  used on input line 586.
 (pdftex.def)             Requested size: 170.71652pt x 113.75674pt.
 
-[31
+[33
 
- <./img/VorhangZu2.jpg>] [32
-
-] [33
-
-] [34
+ <./img/VorhangZu2.jpg>] [34
 
 ] [35
 
@@ -1519,7 +1534,25 @@ Package pdftex.def Info: img/VorhangZu2.jpg  used on input line 550.
 
 ] [37
 
-] [38
+]
+<img/samsung.pdf, id=331, 591.13364pt x 411.83151pt>
+File: img/samsung.pdf Graphic file (type pdf)
+<use img/samsung.pdf>
+Package pdftex.def Info: img/samsung.pdf  used on input line 705.
+(pdftex.def)             Requested size: 227.62204pt x 158.5776pt.
+ [38
+
+ <./img/samsung.pdf, page is rotated 270 degrees>] [39
+
+] [40
+
+] [41
+
+] [42
+
+] [43
+
+] [44
 
 ]
 \tf@nav=\write6
@@ -1531,23 +1564,23 @@ Package pdftex.def Info: img/VorhangZu2.jpg  used on input line 550.
 \tf@snm=\write8
 \openout8 = `Froscon2020.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 668.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 668.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 778.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 778.
  (Froscon2020.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 668.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 668.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 778.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 778.
 Package rerunfilecheck Info: File `Froscon2020.out' has not changed.
-(rerunfilecheck)             Checksum: FFAB7405C8140C872622DB85ABBC5929;551.
+(rerunfilecheck)             Checksum: 612CDB04452274652CF0564CEFCA199D;552.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25193 strings out of 494894
- 535599 string characters out of 3176924
+ 25268 strings out of 494894
+ 536975 string characters out of 3176924
  776130 words of memory out of 3000000
- 28124 multiletter control sequences out of 15000+200000
+ 28185 multiletter control sequences out of 15000+200000
  88313 words of font info for 81 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  56i,17n,71p,780b,859s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1561,9 +1594,9 @@ blic/lm/lmbx10.pfb></Users/daniela/Library/Application Support/MiKTeX/texmfs/in
 stall/fonts/type1/public/lm/lmr10.pfb></Users/daniela/Library/Application Suppo
 rt/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr5.pfb></Users/daniela/Library
 /Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr9.pfb>
-Output written on Froscon2020.pdf (38 pages, 2179071 bytes).
+Output written on Froscon2020.pdf (44 pages, 6790719 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 443 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
