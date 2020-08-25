@@ -1,8 +1,8 @@
-\beamer@sectionintoc {1}{Using Activity Trackers for Research}{4}{0}{1}
-\beamer@subsectionintoc {1}{1}{Participating in Research}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Activity: Alarm bells}{7}{0}{1}
-\beamer@subsectionintoc {1}{3}{Conducting Research}{10}{0}{1}
-\beamer@sectionintoc {2}{Which hardware and software options exist?}{12}{0}{2}
-\beamer@sectionintoc {3}{What are current solutions?}{36}{0}{3}
-\beamer@sectionintoc {4}{What's next?}{43}{0}{4}
-\beamer@subsectionintoc {4}{1}{Activity: Next steps and avenues}{44}{0}{4}
+\beamer@sectionintoc {1}{Using Activity Trackers for Research}{5}{0}{1}
+\beamer@subsectionintoc {1}{1}{Participating in Research}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Activity: Alarm bells}{8}{0}{1}
+\beamer@subsectionintoc {1}{3}{Conducting Research}{11}{0}{1}
+\beamer@sectionintoc {2}{Which hardware and software options exist?}{13}{0}{2}
+\beamer@sectionintoc {3}{What are current solutions?}{42}{0}{3}
+\beamer@sectionintoc {4}{What's next?}{48}{0}{4}
+\beamer@subsectionintoc {4}{1}{Activity: Next steps and avenues}{50}{0}{4}

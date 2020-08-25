@@ -96,7 +96,19 @@
 
 
 \end {frame}
+%%%%%%%%%%%%%%%%%
 
+\begin {frame} {Wrist-worn }
+
+% Poll
+\center 
+Are you wearing an activity tracker atm?
+
+
+\end {frame}
+
+
+%%%%%%%%%%%%%%%%%%%
 
 
 \section {Using Activity Trackers for Research}
@@ -105,7 +117,7 @@
 \begin {frame} {Three Personas I}
 Persona I : Mark
 \center
-\includegraphics[width=30mm]{img/IconOne}
+\includegraphics[width=50mm]{img/mark}
 
 %Twins, age 8, go to primary school
 % Come home with a letter "Invitation to participate" 
@@ -120,7 +132,7 @@ Persona I : Mark
 \begin {frame} {Three Personas II}
 Persona II : Janine
 \center
-\includegraphics[width=50mm]{img/IconTwo}
+\includegraphics[width=50mm]{img/janine}
 
 %Just out of prison, it is not important to know why she served prison time
 %Has a history of criminal conduct, being in and out of specialized psychiatric care, meeting with social workers and in and out of prison/ juvenile detention
@@ -133,7 +145,7 @@ Persona II : Janine
 \begin {frame} {Three Personas III}
 Persona III : Karla 
 \center
-\includegraphics[width=50mm]{img/IconThree}
+\includegraphics[width=50mm]{img/karla}
 
 %Karl's mother is in a nursing home as she cannot live at home anymore because of her dementia
 %Invitation to participate in a study where researchers want to observe the activities at the nursing home to find out how much residents are moving and are physically active. The researchers will also be using smartwatches to record movement and location of the residents. Karl can give consent to either: only observations and surveys, observations, surveys and smartwatch during the day or all of the above and smartwatch at night, too. 
@@ -147,8 +159,9 @@ Persona III : Karla
 
 \begin {frame} {Three Personas}
 
+\center
 %Three Icons 
-\includegraphics[width=30mm]{img/IconOne}\includegraphics[width=30mm]{img/IconTwo}\includegraphics[width=30mm]{img/IconThree}
+\includegraphics[width=30mm]{img/mark}\includegraphics[width=30mm]{img/janine}\includegraphics[width=30mm]{img/karla}
 %Link to mentimeter or other poll option
 
 \pause 
@@ -188,7 +201,7 @@ https://hackmd.io/@DGawehns/rylqLQpMv/edit
 What makes those activity trackers so attractive?
 
 \begin {itemize}
-    \item tracking of activity, heart rate, location, interactions, momentary emotional assessment
+    \item tracking of activity, heart rate, location, interactions, Ecological Momentary Assessment 
     \item passively, (almost) non-intrusive
     \item longitudinal studies (several weeks)
     \item real life data
@@ -213,8 +226,8 @@ What makes those activity trackers so attractive?
 %%%%%%%%%%%%%%
 \begin {frame} {Summary of Use Cases}
 %include overview/ schema with Data Collection and Case Study
-\center
-\includegraphics[width=80mm]{img/OverviewUsecases}
+
+\includegraphics[width=85mm]{img/OverviewUsecases}
 
 \end {frame}
 
@@ -233,7 +246,7 @@ What makes those activity trackers so attractive?
 
 \vspace {1.5cm}
 
-{\fontsize{5}{6}\selectfont Photo by  Loic Leray on Unsplash} 
+{\fontsize{5}{6}\selectfont Photo by Loic Leray on Unsplash} 
 
 
 %Data Quality - Scalability
@@ -301,30 +314,30 @@ What makes those activity trackers so attractive?
 %%%%%%%%%%%
 
 
-\begin {frame}{The How - Apple Watch}
-
-\begin {itemize}
-\item Partner with the Apple Research App %props totally not possible unless you'r Harvard or MIT
-\item Researchkit and Carekit frameworks 
-\pause
-	\begin {itemize}
-	\item access health data, access to "tasks" and their outcomes
-	\item bring your own data storage (?!)
-	\item locked into what the frameworks allow (e.g., no background data collection)
-	\item locked into Apple Watches
-	\end {itemize}
-%are open source, so no involvement by apple on what you are doing (?)
-%you can bring your own backend and manage data storage yourself (!?) %locked in to use apple watches, locked in to use the functions that the frameworks supply %for example background data collection might not be possible
-\pause
-\item Apple Watch App (e.g. Apple Watch SensorLog) 
-	\begin {itemize}
-	\item locked in by certification/ app store process 
-	\item locked in to Apple Watches
-	\end {itemize}
-
-\end {itemize}
-
-\end {frame}
+%\begin {frame}{The How - Apple Watch}
+%
+%\begin {itemize}
+%\item Partner with the Apple Research App %props totally not possible unless you'r Harvard or MIT
+%\item Researchkit and Carekit frameworks 
+%\pause
+%	\begin {itemize}
+%	\item access health data, access to "tasks" and their outcomes
+%	\item bring your own data storage (?!)
+%	\item locked into what the frameworks allow (e.g., no background data collection)
+%	\item locked into Apple Watches
+%	\end {itemize}
+%%are open source, so no involvement by apple on what you are doing (?)
+%%you can bring your own backend and manage data storage yourself (!?) %locked in to use apple watches, locked in to use the functions that the frameworks supply %for example background data collection might not be possible
+%\pause
+%\item Apple Watch App (e.g. Apple Watch SensorLog) 
+%	\begin {itemize}
+%	\item locked in by certification/ app store process 
+%	\item locked in to Apple Watches
+%	\end {itemize}
+%
+%\end {itemize}
+%
+%\end {frame}
 
 %%%%%%%%%%%%
 
@@ -385,19 +398,19 @@ What makes those activity trackers so attractive?
 
 %%%%%%%%%
 
-\begin {frame}{The How - Fitbit}
-
-\begin{itemize}
-\item Use Fitabase  %a company providing research support
-\item Use web API %- extract customer data per participant 
-	\begin{itemize}
-	\item Companion Application to Watch Application file transfer  %can this be done via a private network? fetch API seems to allow this - at least that's what the docs say
-	\item locked in certification  %private apps need to go through publishing process? you might be able to play the system and have several dev accounts and associated dev watches with it - only possible on some, not all watches: Fitbit Versa, Versa Lite, Versa 2, and Ionic.
-	\end{itemize}
-\item Use bulk download via fitbit account %doable for small studies - locked in to what fitbit grants you access to via the companion application
-\end {itemize}
-
-\end {frame}
+%\begin {frame}{The How - Fitbit}
+%
+%\begin{itemize}
+%\item Use Fitabase  %a company providing research support
+%\item Use web API %- extract customer data per participant 
+%	\begin{itemize}
+%	\item Companion Application to Watch Application file transfer  %can this be done via a private network? fetch API seems to allow this - at least that's what the docs say
+%	\item locked in certification  %private apps need to go through publishing process? you might be able to play the system and have several dev accounts and associated dev watches with it - only possible on some, not all watches: Fitbit Versa, Versa Lite, Versa 2, and Ionic.
+%	\end{itemize}
+%\item Use bulk download via fitbit account %doable for small studies - locked in to what fitbit grants you access to via the companion application
+%\end {itemize}
+%
+%\end {frame}
 %https://healthsolutions.fitbit.com/researchers/
 %https://healthsolutions.fitbit.com/researchers/faqs/ %but the accelerometer API DOES give you access to raw accelerometer data??
 %https://www.fitabase.com - company providing researchsupport
@@ -422,26 +435,72 @@ What makes those activity trackers so attractive?
 
 
 %%%%%%%%%				
-\begin {frame}{The How - Garmin}		
+%\begin {frame}{The How - Garmin}		
+%
+%%https://www.fitabase.com - company providing researchsupport
+%%https://www.fitabase.com/how-it-works/faq/
+%%https://www.fitabase.com/resources/knowledge-base/learn-about-fitbit-data/data-resolutions/
+%%granularity of data available
+%
+%\begin{itemize}
+%\item Use Fitabase - a company providing research support
+%\item Use the Health API 
+%\item Use the Health SDK 
+%\end {itemize}
+%
+%%https://developer.garmin.com/health-api/overview/ 
+%%Health API and Health SDK
+%
+%%Health SDK allows custom recording of Heart Rate, Activity Types - and most probably also accelerometer and gyroscope data (but no confirmation or link information for any of this)
+%
+%
+%%Health API gives access to a range of data collected, activity types, sleep, heart rate; I am pretty sure that extraction of raw accelerometer data is not possible via this 
+%
+%\end {frame}
 
-%https://www.fitabase.com - company providing researchsupport
-%https://www.fitabase.com/how-it-works/faq/
-%https://www.fitabase.com/resources/knowledge-base/learn-about-fitbit-data/data-resolutions/
-%granularity of data available
+%%%%%%%%%%%%%%%%%
 
-\begin{itemize}
-\item Use Fitabase - a company providing research support
-\item Use the Health API 
-\item Use the Health SDK 
+\begin {frame}{The How - Using Big Tech}
+
+\begin {itemize}
+\item Apple Watch % for population studies - large trends 
+	\begin {itemize}
+	\item Apple Research App
+	\item Health Kit and Care Kit Frameworks
+	\item built your own
+	\end {itemize}
+\pause
+\item Fitbit
+	\begin {itemize}
+	\item fitabase
+	\item web API
+	\item bulk download
+	\end {itemize}
+
+\pause
+
+\item Garmin
+	\begin {itemize}
+	\item fitabase
+	\item (web) Health API
+	\item  Health SDK
+	\end {itemize}
+
 \end {itemize}
 
-%https://developer.garmin.com/health-api/overview/ 
-%Health API and Health SDK
+\end {frame}
 
-%Health SDK allows custom recording of Heart Rate, Activity Types - and most probably also accelerometer and gyroscope data (but no confirmation or link information for any of this)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin {frame}{The How - Using Big Tech}
 
-%Health API gives access to a range of data collected, activity types, sleep, heart rate; I am pretty sure that extraction of raw accelerometer data is not possible via this 
+\begin {itemize}
+\item granularity (temporal and compounds)
+\pause
+\item web API 's 
+\pause
+\item possibly certification issues
+\end {itemize}
 
 \end {frame}
 
@@ -480,7 +539,7 @@ What makes those activity trackers so attractive?
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\begin {frame}{The How - Choices }
+\begin {frame}{Locked-in : Intent }
 "Do these devices, therefore, have a role as tools for clinical prediction?\\
 We suggest that they do, \textbf{depending on the question being asked [58]}. Our goal is not to draw conclusions about sleep parameters (eg, total sleep time, sleep efficiency) per se, for which the use of unvalidated devices would be inappropriate. Rather, our \textbf{objective is to ask whether changes in longitudinal rest-activity patterns} at the within-person level, captured using wearable device and smartphone sensors, \textbf{predict deterioration} in clinical status."
 
@@ -570,7 +629,7 @@ Summary: We have solutions for:
 
 %%%%%%%%%%%%%%
 
-\begin {frame}{The How - Case Studies}
+\begin {frame}{The How - Privacy}
 
 \center
 \includegraphics[width=60mm]{img/VorhangZu2}
@@ -585,10 +644,16 @@ Summary: We have solutions for:
 
 \end {frame}
 
-
-%%%%%%%%%%%%%%%
-
 %%%%%%%%%%%%%%
+
+\begin {frame}{The How - Privacy}
+\begin {itemize}
+\item Which path does the data take?
+\item Privacy statement between participant and producer, or between researcher and producer?
+\end {itemize}
+\end {frame}
+%%%%%%%%%%%%%%
+
 
 \begin {frame}{Open Science - at last}
 
@@ -596,8 +661,9 @@ Definition by FOSTER: \\
 
 \hspace {1cm} 
 
-Open science is the practice of science in such a way that others can \textbf{collaborate} and \textbf{contribute}, where research data, lab notes and other research processes are freely available, under terms that enable reuse, \textbf{redistribution} and \textbf{reproduction} of the research and its underlying data and \textbf{methods}.
+Open science is the practice of science in such a way that others can \textbf{collaborate} and \textbf{contribute}, where research data, lab notes and other research processes are freely available, \textbf {under terms} that enable reuse, \textbf{redistribution} and \textbf{reproduction} of the research and its underlying data and \textbf{methods}.
 
+{\fontsize{5}{6}\selectfont https://www.fosteropenscience.eu/foster-taxonomy/open-science-definition} 
 
 \end {frame}
 
@@ -615,7 +681,9 @@ Open science is the practice of science in such a way that others can \textbf{co
 	\item collaboration on closed projects?
 	\item contribution on closed projects?
 	\end {itemize}
-	
+	\pause
+\item \textbf {under terms} that enable reuse
+	\pause
 \item \textbf{redistribution} and \textbf{reproduction} of the research and its underlying data and \textbf{methods}
 
 	\begin {itemize}
@@ -624,6 +692,9 @@ Open science is the practice of science in such a way that others can \textbf{co
 	\end {itemize}
 
 \end {itemize}
+
+\pause
+Preprint regarding HR: Nelson et al. (2020): Guidelines for Wrist-Worn Consumer Wearables: Assessment of Heart Rate in Biobehavioral Research; https://psyarxiv.com/3wk65
 
 \end {frame}
 %%%%%%%%%%%%%%%%
@@ -682,6 +753,7 @@ Open science is the practice of science in such a way that others can \textbf{co
 
 \begin {itemize}
 \item cheap-ish option 
+
 \item https://github.com/abumondol/WaDa
 	\begin {itemize}
 	 \item  Accelerometer, Gyroscope, Light
@@ -689,7 +761,9 @@ Open science is the practice of science in such a way that others can \textbf{co
 	\end {itemize}
  
 \item locked into one version of the OS and the hardware that runs this one version 
- 
+
+\item bulk download of health data possible 
+
 \end {itemize}
  
  %have not tried this as yet, are there more experienced people in the room with strong feelings against this option?
@@ -743,30 +817,15 @@ Open science is the practice of science in such a way that others can \textbf{co
 %%%%%%%%
 
 
-\begin {frame} {Open Source Operating System}
+\begin {frame} {Future Work}
 
-https://asteroidos.org/news/
+https://asteroidos.org
 
-%%%%%%% here is where the audience comes into play! 
-
-\end {frame}
-
-
-%%%%%
-
-\begin {frame}{The Future }
-
-- Data Privacy is paramount
-- Research platforms allow access to some but not all data
-- API's do not allow access to all data
-- Interoperability 
-- Robust Findings - independent of tech
-- Validity of measurements
-- Research questions independent of tech/ pre-trained black boxes
-- Modularity to ensure only those sensors that are needed are included (and that they ARE included)
-- Costs are high - open science might be an answer?
-- Using big tech at exploratory research level might be fine - but where are you going with this -- access only to those who can afford it and dependent on companies to not change the modeling?
-- Usually we are working towards sth - let's make sure it is in accordance with what we want to create with the tech-- also already at exploratory levels
+\begin {itemize}
+\item locked in to a handful (android) devices 
+\item limited lifestyle apps
+\item other disadvantages??
+\end {itemize}
 
 \end {frame}
 
@@ -774,23 +833,130 @@ https://asteroidos.org/news/
 \section {What's next?}
 
 %%%%%
+\begin {frame}{The Future?}
 
-\begin {frame}{The Future }
-- Show design process until now - mission and network of stakeholders
-- Multifaceted problem
-- Difficult to get people on board, who commit and stay on board - certainly at beginning
-- How do you build a OS / Open Hardware community?
-- What are the benefits - especially when trying to get academics involved - incentive structure is not built for such projects
+\includegraphics[width=40mm]{img/stakeholders}\includegraphics[width=70mm]{img/mission}
+
+
+
+\end {frame}
+
+
+
+%%%%%%
+
+\begin {frame}{A Mission}
+
+
+An independent community of researchers and other stakeholders evoking cultural shift towards sustainable research.\\
+The community works towards a common toolkit, which is transparent, flexible to use and open for improvements and changes. \\
+Sustainable research is better privacy, adaptable design, affordable, transparent. \\
+Transparency allows everyone in the community to take their own decisions and draw their own conclusions about the product. 
 
 \end {frame}
 
 %%%%%%%
 \subsection {Activity: Next steps and avenues}
 
-\begin {frame} {Wake-up Activity}
-Activity with Audience: collect possible solutions to move forward
+%%%%%
+
+\begin {frame}{What do you think? }
+
+%% Poll
+Is a truly open Activity Tracker an option? \\
+% Yes, No
 \end {frame}
 
+\begin {frame}{What do you think? }
+
+%% Poll
+Which solution has most potential? \\
+A: Homebrew, Samsung \\
+B: Android App \\
+C: Astroid OS  \\
+D: other (leave answer in chat)
+% ABCD
+\end {frame}
+
+\begin {frame}{What do you think? }
+%% Poll
+Is is worth to explore the astroidOS + custom smartwatch route? \\
+% Yes, No
+\end {frame}
+
+\begin {frame}{What do you think? }
+%% Poll
+Do you know of other people working on opening activity trackers for research?
+% Yes, No
+
+%- Data Privacy is paramount
+%- Research platforms allow access to some but not all data
+%- API's do not allow access to all data
+%- Interoperability 
+%- Robust Findings - independent of tech
+%- Validity of measurements
+%- Research questions independent of tech/ pre-trained black boxes
+%- Modularity to ensure only those sensors that are needed are included (and that they ARE included)
+%- Costs are high - open science might be an answer?
+%- Using big tech at exploratory research level might be fine - but where are you going with this -- access only to those who can afford it and dependent on companies to not change the modeling?
+%- Usually we are working towards sth - let's make sure it is in accordance with what we want to create with the tech-- also already at exploratory levels
+
+\end {frame}
+
+\begin {frame}{Contact}
+
+Contact: \\
+Daniela Gawehns \\
+gawehnsd@liacs.leidenuniv.nl \\
+Twitter: @dgawehns
+
+\end {frame}
+
+%%%%%%%%%
+
+\begin {frame}{References and Links}
+
+\begin {itemize}
+\item Case Studies:
+	\begin {itemize}
+	\item Focus on Emotion Lab at Leiden Uni: https://www.focusonemotions.nl
+	\item Exodus Project: https://digitalsocietyschool.org/project/intention-mirror/
+	\item Dementia Project: https://www.universiteitleiden.nl/en/research/research-projects/data-science-research-programme/data-science-research-programme-project-daniela-gawehns
+	\end {itemize}
+	
+\end {itemize}
+
+\end {frame}
+%%%%%%%%%
+
+\begin {frame}{References and Links}
+
+\begin {itemize}
+\item Consumer Grade Wearables
+	\begin {itemize}
+	\item Apple: https://github.com/researchkit/researchkit 
+	\item fitbit: https://healthsolutions.fitbit.com/researchers/ \\ https://healthsolutions.fitbit.com/researchers/faqs/ 
+	\item garmin:
+	\item fitabase (for fitbit and garmin): https://www.fitabase.com/how-it-works/faq/ \\ https://www.fitabase.com/resources/knowledge-base/learn-about-fitbit-data/data-resolutions/
+	\end {itemize}
+\end {itemize}
+
+\end {frame}
+%%%%%%%%%
+\begin {frame}{References and Links}
+
+\begin {itemize}
+
+\item Using big Tech
+	\begin {itemize}
+	\item Meyer N., et al (2018): Capturing Rest-Activity Profiles in Schizophrenia Using Wearable and Mobile Technologies: Development, Implementation, Feasibility, and Acceptability of a Remote Monitoring Platform 
+	\item corona-dataspende.de
+	\item Harvard Med Study
+	\end {itemize}
+	
+\end {itemize}
+
+\end {frame}
 
 \end{document}
 
