@@ -1,0 +1,166 @@
+\documentclass [t,11pt] {beamer}
+%\def\Put(#1,#2)#3{\leavevmode\makebox(0,0){\put(#1,#2){#3}}}
+
+% --------------------------------------------------------------------
+% Load packages
+\usepackage{ulem}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+    decorations.pathreplacing,decorations.pathmorphing,shapes,%
+    matrix,shapes.symbols}
+\usepackage{listings}
+%\lstset{tabsize=2,showspaces=false,showtabs=false,basicstyle=\ttfamily\mdseries\itshape\normalsize}
+%for listings:
+\usepackage{color}
+
+\usepackage{hyperref} %for links
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=R,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
+
+
+
+% --------------------------------------------------------------------
+% Beamer version theme settings
+%\usetheme[faculty=sciences,lang=en,rmfont=pmn,logofont=fpi]{leiden}
+%\usetheme[faculty=sciences,lang=en]{leiden}
+\usetheme[faculty=sciences,lang=en,logofont=fpi]{leiden}
+
+% --------------------------------------------------------------------
+\def\liketitle#1{%
+{\usebeamerfont{frametitle}\usebeamercolor[fg]{frametitle}%
+\begin{flushleft}%
+\vspace{-\baselineskip}% Cosmetic correction for space introduced by flushleft
+#1\par
+\end{flushleft}%
+\vspace{-\baselineskip}% Cosmetic correction for space introduced by flushleft
+}%
+\vspace{0.75\baselineskip}%
+}
+
+\setbeamertemplate{navigation symbols} {}
+
+%\usetheme{Singapore}
+
+% Header settings
+\def\lecturename{Digital OS} 
+\lecture[Leiden Template]{}{ldn-bmr}
+%\lecture[Leiden Template]{}{}
+\title{Journal Club: Tools for Digital Open Science} 
+%\subtitle{Template to generate Leiden-style slides with LaTeX}
+\author {Daniela Gawehns, ReproducibiliTea Leiden 1-10-2020}
+\date{}
+%\institute{Universiteit Leiden}
+\subject{Lecture: \lecturename}
+
+
+\begin{document}
+
+
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%
+
+\begin {frame} {Paper}
+
+
+\begin {center }
+
+\href{https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2006022}{Digital open science - \\Teaching digital tools for reproducible and transparent research}\\
+ \end {center}
+Toelch U, Ostwald D (2018)
+
+\end {frame}
+
+%%%%%%%%%%%%%%%%%
+
+\begin {frame} { Course Content }
+
+The Course: 
+\begin {itemize}
+\item Session I  Introduction to open science
+\item Session II Preregistration
+\item Session III Data Repositories (OSF, Dataverse, Zenodo, FAIR data)
+\item Session IV Code Management (Git, Notebooks)
+\item Session V Open Access (publication process, preprints, licencing)
+\item Session VI Chances and Limitations of Open Science
+\item Course Project: Implement what your learnt
+\end {itemize}
+
+
+\end {frame}
+
+%%%%%%%%%%%%%%%%%
+
+
+\begin {frame} {Course Context}
+
+MSc of PhD level course \\
+Life Science as main target audience \\
+60 hrs total with 15-20 hrs lectures/tutorials \\
+\\
+Narrative: Replicate a study from your field of interest
+
+\end {frame}
+
+%%%%%%%%%%%%%%%%%
+
+\begin {frame} { Final Course Project}
+
+Aim: Integrate what you learnt into your workflow
+
+\end {frame}
+
+%%%%%%%%%%%%%%%%%
+
+\begin {frame} {Course Evaluation and Tips}
+\begin {itemize}
+\item tailor course to scientific fields/ institutes
+\item 1/3 of respondents had NO plans to use version control in their projects
+\item incorporate in existing coursework (either content or ethics or data management course)
+\end {itemize}
+
+\end {frame}
+%%%%%%%%%%%%%%%%%
+
+\begin {frame} {What's next?}
+
+Discussion Questions:
+\begin {itemize}
+\item Do you know a (mandatory?) course where open science content could be added?
+\item What about the Bachelor Students?
+\item What do you think about field-specific courses?
+\item What about the argument that a reproducible workflow makes your own life easier?
+\item When is the best time to learn about OS tools?
+\end {itemize}
+
+\end {frame}
+%%%%%%%%%%%%%%%%%
+
+
+
+
+
+\end {document}
