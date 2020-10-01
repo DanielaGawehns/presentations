@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.4.13)  30 SEP 2020 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.4.13)  1 OCT 2020 08:38
 entering extended mode
 **./ReproTeaOct2020.tex
 (ReproTeaOct2020.tex
@@ -1334,7 +1334,7 @@ pdftex.map}
 
  <./img/uni-leiden.pdf>]
 
-ReproTeaOct2020.tex:95: LaTeX Error: Environment center  undefined.
+ReproTeaOct2020.tex:97: LaTeX Error: Environment center  undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1343,8 +1343,8 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-ReproTeaOct2020.tex:95: LaTeX Error: \begin{beamer@framepauses} on input line 9
-5 ended by \end{center}.
+ReproTeaOct2020.tex:97: LaTeX Error: \begin{beamer@framepauses} on input line 9
+7 ended by \end{center}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1358,7 +1358,7 @@ or  <return>  to continue without it.
 
 ]
 
-ReproTeaOct2020.tex:126: LaTeX Error: There's no line here to end.
+ReproTeaOct2020.tex:128: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1384,11 +1384,11 @@ or  <return>  to continue without it.
 \tf@snm=\write8
 \openout8 = `ReproTeaOct2020.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (ReproTeaOct2020.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `ReproTeaOct2020.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1412,9 +1412,9 @@ y/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbsy10.pfb><
 /Users/daniela/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
 blic/lm/lmr10.pfb></Users/daniela/Library/Application Support/MiKTeX/texmfs/ins
 tall/fonts/type1/public/lm/lmr9.pfb>
-Output written on ReproTeaOct2020.pdf (7 pages, 387228 bytes).
+Output written on ReproTeaOct2020.pdf (7 pages, 387782 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
